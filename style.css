@@ -24,6 +24,7 @@ body {
     display: table;
     width: 100%;
     height: 100%;
+    z-index: 9;
 }
 
 h1 {
@@ -71,4 +72,32 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.links:hover {
+    background-color: #555555;
+    font-size: 40px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
